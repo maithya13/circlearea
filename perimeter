@@ -1,0 +1,31 @@
+```
+
+struct Circle {
+
+    radius: f64,
+
+}
+
+impl Circle {
+
+    fn area(&self) -> f64 {
+
+        3.14 * (self.radius * self.radius)
+
+    }
+
+    fn perimeter(&self) -> f64 {
+
+        2.0 * 3.14 * self.radius
+
+    }
+
+}
+
+let circle = Circle { radius: 10.0 };
+
+println!("The area of the circle is {}", circle.area());
+
+println!("The perimeter of the circle is {}", circle.perimeter());
+
+```
